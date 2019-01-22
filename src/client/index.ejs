@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <base href="<%= locals.basePath || '/' %>" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=false" />
+      <link rel="shortcut icon" type="image/png" href="../../style/img/logo.png"/>
+    <title ng-bind="$root.pageTitle">Virtual Store</title>
+
+    <meta property="og:type"  content="website" />
+    <meta property="og:image" content="<%= locals.image %>" />
+    <meta property="og:title" content="<%= locals.title %>" />
+    <meta property="og:description" content="<%= locals.description %>" />
+      <link rel="stylesheet" type="text/css" href="../style/app.css" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script async src="../javascript/owl.carousel.js"></script>
+  </head>
+
+   <body main  ng-class="$root.bodyClass" class="pace pace-done" ng-controller="UtilCtrl" >
+       <div id="pace_status"></div>
+       <!-- Main view  -->
+       <div ui-view></div>
+       <script>   var BASEPATH="<%= locals.basePath %>";  </script>
+       <script>   var ENV="<%= locals.environment %>";  </script>
+       <script>   var APIPATH="<%= locals.apiPath %>";  </script>
+       <script>   var ACCESSTOKEN="<%= locals.accessToken %>";  </script>
+       <script src="vendor/jspm_packages/system.js"></script>
+       <script src="system.config.js"></script>
+       <script src="../build/build.js"></script>
+       <!-- <script type="text/javascript" src="https://dme0ih8comzn4.cloudfront.net/imaging/v3/editor.js"></script>-->
+       <script src="../javascript/popper.min.js" ></script>
+       <script src="../javascript/bootstrap.min.js" ></script>
+
+       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+       <script type="application/javascript" >System.import('bootstrap.js').catch(function(err) { console.error(err); });</script>
+   </body>
+</html>

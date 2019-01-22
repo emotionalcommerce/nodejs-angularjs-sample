@@ -1,0 +1,179 @@
+@media screen and (max-width: 1024px) {
+
+    #homepage .shipping label {
+        font-size: 13px;
+    }
+
+    #homepage .cart p.name {
+        top: 35%;
+    }
+
+    #header p {
+        font-size: 15px;
+    }
+
+    #header .rightMenu li {
+        padding-left: 18px;
+    }
+
+    #homepage .btn-delete {
+        height: 40px;
+        width: 155px;
+        font-size: 13px;
+    }
+
+    #homepage .btn-upload {
+        height: 40px;
+        width: 155px;
+        font-size: 13px;
+    }
+
+    #homepage .col-lg-3 {
+        padding: 0 5px;
+    }
+
+    #homepage .col-lg-4 {
+        padding: 0 5px;
+    }
+
+    #homepage .col-lg-6 {
+        padding: 0 5px;
+    }
+
+    #homepage .col-lg-8 {
+        padding: 0 5px;
+    }
+
+    #homepage .row {
+        margin: 0 -5px;
+    }
+
+    #footer .socialList li, #footer .footerMenu li {
+        padding: 11px 13px;
+    }
+
+    #footer .top a {
+        font-size: 13px;
+    }
+
+    #footer .bottomFooter .footerMenu li {
+        padding-right: 25px;
+    }
+
+    #footer .bottomFooter .socialList li img {
+        height: 25px;
+    }
+
+    #footer .bottomFooter .socialList li img.special {
+        height: 35px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #header p {
+        font-size: 14px;
+    }
+
+    #header .rightMenu li {
+        padding-left: 15px;
+    }
+
+    #homepage .cart .table td, #homepage .cart .table th {
+        padding: 20px 35px;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    #homepage .cart p.name {
+        color: #061626;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        display: inline-block;
+        margin-bottom: 0;
+        position: relative;
+        padding-left: 0;
+    }
+
+    #homepage .shipping .form {
+        padding: 5% 15%;
+    }
+
+    #homepage .shipping h2 {
+        padding: 15px;
+    }
+
+    #homepage .shippingDetails p.day {
+        text-align: left;
+    }
+
+    #footer .socialList {
+        text-align:center;
+    }
+
+    #footer .top a {
+        font-size: 13px;
+        text-align: center;
+        display: block;
+    }
+
+    #footer .bottomFooter .footerMenu {
+        text-align: center;
+    }
+
+    #footer .bottomFooter .socialList {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    #footer .bottomFooter {
+        padding: 30px 2%;
+    }
+
+    #header p {
+        font-size: 14px;
+        margin: auto;
+    }
+
+    #header .rightMenu {
+        margin: auto;
+    }
+
+    #header .logo-section img {
+        max-height: 55px;
+        margin: 15px 0;
+    }
+
+    #header .rightMenu li {
+        padding: 0 15px;
+    }
+
+
+    #homepage .shipping .form {
+        padding: 5% 5%;
+    }
+
+    #homepage .btn-delete {
+        margin-bottom: 10px;
+    }
+
+    .bottom {
+        padding: 20px 0;
+    }
+
+    .bottom ul li {
+        display: inline-block;
+        padding: 0 8px;
+        color: #fff;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    #header .fa-chevron-down {
+        font-size: 9px;
+    }
+}

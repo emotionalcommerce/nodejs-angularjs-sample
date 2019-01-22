@@ -1,0 +1,57 @@
+.w100{width:100%;}
+.float_l{float:left;}
+.float_r{float:right;}
+.grey_bg{
+	background:#efefef;
+}
+.modal-body{
+	overflow:hidden;
+}
+.image{
+	display: table;
+	margin: auto;
+	position: relative;
+}
+.image >img{
+	margin:auto;
+	/*border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-webkit-border-radius:50%;*/
+}
+
+.fixlogo img{
+	width:100px;
+	height:100px;
+}
+.fixlogo div.img-circle{
+	width:100px;
+	height:100px;
+}
+.image .close{
+	top:5px;
+	right:15px;
+	opacity:1;
+	position:absolute;
+	cursor: pointer;
+}
+.form-group{
+	width:100%;
+	float:left;
+}
+.b_space{
+	margin-bottom: 200px;
+}
+
+@media screen and (max-width: 850px){
+    .project-actions a{float:left;clear:both;}
+}
+
+
+.form-group .chosen-container-multi .chosen-choices li.search-field input[type="text"],
+.form-group input,
+.form-group textarea{
+	color:#999 ;
+	font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:14px;
+}

@@ -1,0 +1,41 @@
+<div id="signupModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form name="signupForm" novalidate>
+                <div class="modal-header-new">
+                    <span ng-click="$root.showSignup=0">&#10005;</span>
+                </div>
+                <div class="modal-body">
+
+                        <div class="input-group" ng-class="{true: 'error'}[signupForm.firstName.$touched && signupForm.firstName.$invalid]" >
+                            <input maxlength="50" name="firstName" ng-model="$main.data.firstName" type="text" class="form-control" placeholder="First name" required>
+                            <span class="text-danger clearfix" ng-show="signupForm.firstName.$touched && signupForm.firstName.$error.required">First name field is required.</span>
+                            <span class="text-danger clearfix" ng-show="signupForm.firstName.$error.maxlength">First name must have max 50 characters.</span>
+                        </div>
+                        <div class="input-group" ng-class="{true: 'error'}[signupForm.lastName.$touched && signupForm.lastName.$invalid]" >
+                            <input maxlength="50" name="lastName" ng-model="$main.data.lastName" type="text" class="form-control" placeholder="Last name" required>
+                            <span class="text-danger clearfix" ng-show="signupForm.lastName.$touched && signupForm.lastName.$error.required">Last name field is required.</span>
+                            <span class="text-danger clearfix" ng-show="signupForm.lastName.$error.maxlength">Last name must have max 50 characters.</span>
+                        </div>
+                        <div class="input-group" ng-class="{true: 'error'}[signupForm.email.$touched && signupForm.email.$invalid]" >
+                            <input name="email" ng-model="$main.data.email" type="email" class="form-control" placeholder="Email" required>
+                            <span class="text-danger clearfix" ng-show="signupForm.email.$touched && signupForm.email.$error.required">Email field is required.</span>
+                            <span class="text-danger clearfix" ng-show="!signupForm.email.$error.required && signupForm.email.$error.email">Invalid email address.</span>
+                        </div>
+                        <div class="input-group" ng-class="{true: 'error'}[signupForm.password.$touched && signupForm.password.$invalid]" >
+                            <input minlength="6" name="password" ng-model="$main.data.password" type="password" class="form-control" placeholder="Password" required>
+                            <span class="text-danger clearfix" ng-show="signupForm.password.$touched && signupForm.password.$error.required">Password field is required.</span>
+                            <span class="text-danger clearfix" ng-show="!signupForm.password.$error.required && signupForm.password.$error.minlength">Password must be at least 6 characters long.</span>
+                        </div>
+
+                </div>
+                <div class="modal-footer-new">
+                    <button class="btn btn-color"   ng-disabled="signupForm.$invalid" ng-click="$root.signup()">Sign Up</button>
+                    <h3>
+                        By signing up you agree with our <a target="_blank" href="/terms">terms & conditions</a>
+                    </h3>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

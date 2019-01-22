@@ -1,0 +1,495 @@
+.v-align {
+    display: flex;
+    align-items: center;
+}
+
+#header .row {
+    margin: 0;
+}
+
+#header .top {
+    padding: 20px 10%;;
+}
+
+#header .logo-section {
+    margin: auto;
+}
+
+#header .logo-section img {
+    max-height: 55px;
+}
+
+#header .rightMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+#header .rightMenu li {
+    padding-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#header .fa-chevron-down {
+    font-size: 12px;
+}
+
+#header p {
+    color: #061626;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.bottom {
+    width:100%;
+    padding: 20px 10%;
+    background-color: #061626;
+}
+
+.bottom ul {
+    margin: auto;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left:0;
+}
+
+.bottom ul li {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#homepage {
+    padding: 3% 10%;
+    background-color: #F8F8FB;
+}
+
+#homepage .cart {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.05);
+}
+
+#homepage .cart .table thead th {
+    border: 0 !important;
+    padding: 30px 50px;
+    text-transform: uppercase;
+}
+
+#homepage .cart .table td, #homepage .cart .table th {
+    padding: 30px 50px;
+    vertical-align: middle;
+    position: relative;
+}
+
+#homepage .cart .image {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+}
+
+#homepage .cart .theTotal {
+    font-size: 26px !important;
+    margin-left: 15px;
+}
+
+#homepage .cart p.name {
+    color: #061626;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+    padding-left:20px;
+    margin-bottom:0;
+    position: absolute;
+    top: 45%;
+}
+
+#homepage .cart span.price {
+    color: #71787F;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+#homepage .cart span.totalPrice {
+    color: #061626;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+#homepage .cart td.totalPrice {
+    text-align: right;
+}
+
+#homepage .cart .fa {
+    color: red;
+    cursor: pointer;
+}
+
+#homepage .cart .qty .minus {
+    width:30%;
+    border: 1px solid #eee;
+    border-right: 0;
+    display: inline-block;
+    text-align:center;
+    cursor: pointer;
+    height: 30px;
+    margin-right: -5px;
+    border-radius: 5px 0 0 5px;
+}
+
+#homepage .cart .qty .middle {
+    width:30%;
+    border: 1px solid #eee;
+    display: inline-block;
+    text-align:center;
+    height: 30px;
+}
+
+#homepage .cart .qty .plus {
+    width:30%;
+    border: 1px solid #eee;
+    border-left: 0;
+    display: inline-block;
+    text-align:center;
+    cursor: pointer;
+    height: 30px;
+    margin-left: -5px;
+    border-radius: 0 5px 5px 0;
+}
+
+#homepage .cart .promo span {
+    color: #71787F;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+#homepage .cart .promo {
+    position:relative
+}
+
+#homepage .cart .promo span b {
+    color: #000;
+}
+
+#homepage .cart .promo span:first-child {
+    margin-right:5px;
+}
+
+#homepage .cart .promo span:last-child {
+    margin-left: 15px;
+}
+
+#homepage input {
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+#homepage .cart .promo .fa {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #71787F;
+    margin-left: -50px;
+}
+
+#homepage h1 {
+    color: #061626;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#homepage .shipping {
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.05);
+}
+
+#homepage .shipping h2 {
+    color: #061626;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 43px;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+#homepage .shipping .form {
+    padding: 5% 25%;
+}
+
+#homepage .shipping label {
+    display: block;
+    color: #061626;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    height: 19px;
+}
+
+#homepage .shipping input {
+    width: 100%;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+#homepage .shippingDetails {
+    padding: 25px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#homepage .shipping input {
+    height:50px;
+}
+
+#homepage .shippingDetails p {
+    margin-bottom: 0;
+    color: #71787F;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+#homepage .shippingDetails p.day {
+    text-align: center;
+}
+
+#homepage .shippingDetails p.shippingPrice {
+    text-align: right;
+}
+
+#homepage .shipping .totalPrice {
+    margin: 30px 0;
+    text-align:right;
+    color: #71787F;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#homepage .shipping .totalPrice span {
+    color: #061626;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+#homepage .shipping .button {
+     text-align: right;
+}
+
+#homepage .shipping .button .btn {
+    height:50px;
+    width:200px;
+}
+
+#footer {
+    background-color: #292C39;
+}
+
+#footer .top {
+    padding:30px 10%;
+}
+
+#footer .bottomFooter {
+    padding:30px 10%;
+}
+
+#footer .footerMenu {
+     list-style: none;
+     margin-bottom: 0;
+     padding-left: 0;
+     text-align: center;
+ }
+
+#footer .footerMenu li {
+    display: inline-block;
+    padding: 11px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer .socialList {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: right;
+}
+
+#footer .socialList li {
+    display: inline-block;
+    padding: 11px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer .top {
+    border-bottom: 1px solid #4A4D5A;
+}
+
+#footer .top a {
+    color: #CDD3D8;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.65px;
+    line-height: 26px;
+    text-transform: uppercase;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#footer .top a:hover {
+    text-decoration: none;
+}
+
+#footer .top a img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+#footer .bottomFooter .footerMenu {
+    text-align:left;
+}
+
+#footer .bottomFooter .footerMenu li {
+    color: #71787F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-left:0;
+    padding-right:40px;
+}
+
+#footer .bottomFooter .socialList {
+    text-align: right;
+}
+
+#footer .bottomFooter .socialList li {
+    color: #71787F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding: 0px 5px;
+}
+
+#footer .bottomFooter .socialList li img {
+    height: 30px;
+}
+
+#homepage .gift {
+    text-align: center;
+    padding: 25px;
+    background-color: #F8F8FB;
+}
+
+#homepage .gift input {
+    display:inline-block;
+    height: 20px;
+    width: 30px;
+}
+
+#homepage .gift .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#homepage .gift .form-group label {
+    margin: auto;
+    cursor: pointer;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+}
+
+#homepage .upload {
+    text-align: center;
+    padding: 25px;
+    background-color: #F8F8FB;
+    margin-top:5px;
+}
+
+#homepage .upload h3 {
+    color: #061626;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+#homepage .upload p {
+    color: #71787F;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+#homepage .btn-upload {
+    border-radius: 4px;
+    background-color: #47C676;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+#homepage .btn-delete {
+    border-radius: 4px;
+    background-color: #fff;
+    color: #FF4225;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    border: 1px solid #ECECF1;
+}
+
+#homepage .upload video {
+    margin: 15px 0;
+}
+
+#footer .bottomFooter .socialList li img.special {
+    height:40px;
+}
+
+.appQrCode2 {
+    width:100%;
+}

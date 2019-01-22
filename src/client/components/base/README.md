@@ -1,0 +1,1 @@
+the main entry point directive, also containing the router
